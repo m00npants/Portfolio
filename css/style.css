@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  color: rgb(241, 235, 235);
+}
+
+header {
+  text-align: center;
+  padding: 20px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.profilbild img {
+  width: 150px;           
+  height: 150px;
+  object-fit: cover;      
+  border-radius: 50%;     
+  border: 1px solid white; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+  position: absolute;
+  top: 20px;
+  left: 80px;
+}
+
+.github-länk {
+  display: inline-block;
+  margin-top: 10px;
+  transition: transform 0.2s;
+}
+
+.github-länk:hover {
+  transform: scale(1.1);
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.cv-knapp {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.github-länk {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #24292e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.github-länk:hover {
+  background-color: #444c56;
+}
+
+.cv-knapp:hover {
+  background-color: #ddd;
+}
+
+.projekt {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.kort {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 200px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.projekt-galleri {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.projekt-kort {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.projekt-kort img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+
+
+

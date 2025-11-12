@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andreas Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/table.css" />
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+  <!-- header and links  -->
+<body>
+  <header>
+    <h1>Andreas Karlsson</h1>
+    <p>Student Fullstackutvecklare Java </p>
+    <div class="profilbild">
+  <img src="images/1781597.svg" alt="Andreas Karlsson" />
+</div>
+
+    <br />
+    <nav>
+      <a href="#om">Om mig</a>
+      <a href="#projekt">Projekt</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+   
+</a>
+    
+  </header>
+<!-- About me section and my projects -->
+  <section id="om">
+    <h2>About me</h2>
+    <p>Jag är en passionerad person från Oskarshamn som just nu studerar till Fulsltackutvecklare Java.</p>
+  </section>
+
+  <section id="cv">
+  <h2>My CV</h2>
+  <p>Klicka nedan för att ladda ner mitt CV som PDF:</p>
+  <a href="files/andreas-cv.pdf" download class="cv-knapp">Download CV</a>
+</section>
+
+
+  <section id="projekt">
+  <h2>My Projects</h2>
+  <div class="projekt-galleri">
+    <div class="projekt-kort">
+      <img src="images/logonew.jpg" alt="Projekt 1" />
+      <h3>Homepage</h3>
+      <p>My first homepage for Bluefrontsupport.</p>
+      <a href="https://bfs.osket.se/bfs" target="_blank" class="github-länk">Link</a>
+    </div>
+    <div class="projekt-kort">
+      <img src="images/fivemsquare.png" alt="Projekt 2" />
+      <h3>Shoplift</h3>
+      <p>Shopliftingscript for Qbcore and Qbox.</p>
+      <a href="https://github.com/m00npants/fivem" target="_blank" class="github-länk">Link</a>
+
+    </div>
+    <!-- Lägg till fler projekt här -->
+  </div>
+</section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <form>
+      <input type="text" placeholder="Ditt namn" required />
+      <input type="email" placeholder="Din e-post" required />
+      <textarea placeholder="Ditt meddelande"></textarea>
+      <button type="submit">Skicka</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Andreas Karlsson
+     <a href="https://github.com/m00npants" target="_blank" class="github-länk">
+  <svg height="14" width="14" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38v-1.33c-2.23.48-2.7-1.07-2.7-1.07-.36-.91-.88-1.15-.88-1.15-.72-.49.05-.48.05-.48.8.06 1.22.82 1.22.82.71 1.21 1.87.86 2.33.66.07-.52.28-.86.5-1.06-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.1 0 0 .67-.21 2.2.82a7.65 7.65 0 012-.27c.68 0 1.36.09 2 .27 1.53-1.03 2.2-.82 2.2-.82.44 1.09.16 1.9.08 2.1.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </footer>
+</body>
+</html>
